@@ -1,5 +1,5 @@
-let canvas = document.getElementById("snake"); // criar elemento que irá rodar o jogo
-let context = canvas.getContext("2d");
+let canvas = document.getElementById("snake"); //Aqui definimos o nome do elemento que,no caso,como o projeto vai ser reconhecido
+let context = canvas.getContext("2d");//É um elemento que contem um outro elento canva dentro,importa as informaçoes do(style.css)
 let box = 32;
 
 let snake = []; // criar cobrinha como lista, já que ela vai ser uma série de coordenadas, que quando pintadas, criam os quadradinhos
